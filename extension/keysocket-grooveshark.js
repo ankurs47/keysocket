@@ -33,12 +33,12 @@ function connect() {
       var key = e.data;
       if (key == PREV) {
         // Play the previous song
-        simulateClick('player_previous');
+        simulateClick('play-prev');
       } else if (key == NEXT) {
         // Play the next song.
-        simulateClick('player_next');
+        simulateClick('play-next');
       } else if (key == PLAY) {
-        simulateClick('player_play_pause');
+        simulateClick('play-pause');
       }
     };
 
